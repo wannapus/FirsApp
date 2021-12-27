@@ -4,9 +4,14 @@ const commonStyles = StyleSheet.create({
         padding: 20 
     },
 TextTitle1: {
-    color: 'blue',
+    color: '#0000FF',
     fontSize: 20,
     fontWeight: 'bold',
+    marginTop: 15,
+},
+TextTitle2: {
+    color: '#000000',
+    fontSize: 20,
     marginTop: 15,
 },
     textPlain: {fontSize: 16}
