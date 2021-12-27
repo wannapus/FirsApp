@@ -1,17 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import commonStyles from './common-styles'
+import ColumnItems from './column-items';
+import commLayouts from './common-layouts'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.TextnameEng}>Mr.WANNAPUS PHOTACHAREON</Text>
-      <Text style={styles.Textnamethai}>MONARCH</Text>
+    <View style={commonStyles.container}>
+      <Text style={commonStyles.TextTitle1}>MONARCH</Text>
+      <Text style={commonStyles.TextTitle}>Mr.WANNAPUS PHOTACHAREON</Text>
+      <ColumnItems />
       <StatusBar style="auto" />
     </View>
   );
 }
-
+/*
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -19,9 +23,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  TextmaneEng: {
+TextmaneEng: {
     fontSize: 20,
     fontWeight: 'bold',
     color: '#FFFFFF',
   },
 });
+*/
