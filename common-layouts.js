@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         marginTop: 5,
         marginRight: '1.55%',
-        
+
 
     },
     item3: {
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         marginTop: 5,
         marginRight: '1.55%',
-        
+
     },
     item4: {
         height: '10em',
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         marginTop: 5,
         marginRight: '1.55%',
-        
+
     },
     item5: {
         height: '10em',
@@ -68,6 +68,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         marginTop: 5,
         marginRight: '1.55%',
-        
+
     },
 })
