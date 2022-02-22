@@ -7,6 +7,7 @@ import TextInputDemo from './text-input-demo'
 import SwitchDemo from './switch-demo'
 import ImageDemo from './image-demo'
 const imgLogo = require('./assets/favicon.png')
+import CommonProduct from './product'
 
 export default function App() {
     const onPressButton1 = () => {
@@ -15,14 +16,15 @@ export default function App() {
     const [text, onChangeText] = React.useState('Useless Text');
     return ( 
         <View style = {styles.container} >
-            {/*<Text style = {styles.textColor }>Welcome to FirstApp</Text> */}
+            {/* <Text style = {styles.textColor }>Welcome to FirstApp</Text> */}
             {/* <Button title="คลิกที่นี่" onPress={onPressButton1}></Button> */}
-            <Image source={imgLogo} style={styles.imgLogo} />
-            <TextInput style = {styles.input} placeholder="Username"></TextInput>
-            <TextInput style = {styles.input} placeholder="Password"></TextInput>
+            {/* <Image source={imgLogo} style={styles.imgLogo} /> */}
+            {/* <TextInput style = {styles.input} placeholder="Username"></TextInput> */}
+            {/* <TextInput style = {styles.input} placeholder="Password"></TextInput> */}
         {/* <TextInputDemo /> */}
         {/* <SwitchDemo /> */}
         {/* <ImageDemo /> */}
+            <CommonProduct />
         </View>
     );
 }
